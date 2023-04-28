@@ -1,3 +1,42 @@
 body{
-    background-color: aquamarine;
+    background-color: #f2d2d2;
+    font-family: Arial, sans-serif;
 }
+
+header{
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+aside{
+    background-color: #fff;
+    box-shadow: 0 0 5px;
+    padding: 20px;
+    top: 80px;
+    right: 20px;
+    width: 250px;
+}
+
+h2{
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#currentWeather{
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#forecast{
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
