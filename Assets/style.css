@@ -38,5 +38,15 @@ h2{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+#currentTemp,
+#currentWind,
+#currentHumd{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
