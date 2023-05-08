@@ -15,4 +15,4 @@ I used HTML in a way so that I am able to have it later interat with Javascript 
 
 ## License
 
-Refer to the license in the repo 
+Refer to the license in the repo  
