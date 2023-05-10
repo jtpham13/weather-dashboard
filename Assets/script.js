@@ -23,9 +23,9 @@ function getCurrentWeather(cityName) {
       // cityNameEl.textContent = data.name
       // document.querySelector("#cityNameContainer").appendChild(cityNameEl)
       document.querySelector("#cityNameContainer").innerHTML = data.name;
-      currentTemp.textContent = data.main.temp;
-      currentWind.textContent = data.wind.speed;
-      currentHumd.textContent = data.main.humidity;
+      currentTemp.textContent = data.main.temp + "°F";
+      currentWind.textContent = data.wind.speed + " mph";
+      currentHumd.textContent = data.main.humidity+ "%" ;
     });
 }
 
